@@ -7,6 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E32C22B0971FB874AFE804E /* Pods_Joke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAFB6ED2832A553D9EE370 /* Pods_Joke.framework */; };
+		C35A0D7E1E4C61F0005E511E /* FirstLrcV.m in Sources */ = {isa = PBXBuildFile; fileRef = C35A0D7D1E4C61F0005E511E /* FirstLrcV.m */; };
+		C35A0D811E4C6202005E511E /* SecondLrcV.m in Sources */ = {isa = PBXBuildFile; fileRef = C35A0D801E4C6202005E511E /* SecondLrcV.m */; };
+		C35B45AB1E4864D30053FB77 /* JokeTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C35B45A91E4864D30053FB77 /* JokeTextCell.m */; };
+		C35B45AC1E4864D30053FB77 /* JokeTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35B45AA1E4864D30053FB77 /* JokeTextCell.xib */; };
+		C36B96111E4B0E1B0012589D /* WPFPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B96101E4B0E1B0012589D /* WPFPlayManager.m */; };
+		C36B96141E4B0FE00012589D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B96131E4B0FE00012589D /* UIView+Extension.m */; };
+		C36B96181E4B1ABA0012589D /* MusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B96161E4B1ABA0012589D /* MusicVC.m */; };
+		C36B96191E4B1ABA0012589D /* MusicVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36B96171E4B1ABA0012589D /* MusicVC.xib */; };
+		C38972F31E4998FA007ECAB4 /* imgvScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C38972F21E4998FA007ECAB4 /* imgvScale.m */; };
+		C3A449E41E4BFF0900502BD5 /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A449CC1E4BFF0900502BD5 /* buyao.wav */; };
+		C3A449E51E4BFF0900502BD5 /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A449CD1E4BFF0900502BD5 /* chatcome.wav */; };
+		C3A449E61E4BFF0900502BD5 /* eason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A449CE1E4BFF0900502BD5 /* eason.jpg */; };
+		C3A449E71E4BFF0900502BD5 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A449CF1E4BFF0900502BD5 /* test.wav */; };
+		C3A449E81E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D01E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).lrc */; };
+		C3A449E91E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D11E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).mp3 */; };
+		C3A449EA1E4BFF0900502BD5 /* 包师语.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D21E4BFF0900502BD5 /* 包师语.png */; };
+		C3A449EB1E4BFF0900502BD5 /* 安河桥北.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D31E4BFF0900502BD5 /* 安河桥北.jpg */; };
+		C3A449EC1E4BFF0900502BD5 /* 宋冬野 - 安河桥.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D41E4BFF0900502BD5 /* 宋冬野 - 安河桥.lrc */; };
+		C3A449ED1E4BFF0900502BD5 /* 宋冬野 - 安河桥.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D51E4BFF0900502BD5 /* 宋冬野 - 安河桥.mp3 */; };
+		C3A449EE1E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D61E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).lrc */; };
+		C3A449EF1E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D71E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).mp3 */; };
+		C3A449F01E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D81E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).lrc */; };
+		C3A449F11E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449D91E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).mp3 */; };
+		C3A449F21E4BFF0900502BD5 /* 徐歌阳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A449DA1E4BFF0900502BD5 /* 徐歌阳.jpg */; };
+		C3A449F31E4BFF0900502BD5 /* 徐歌阳1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A449DB1E4BFF0900502BD5 /* 徐歌阳1.jpg */; };
+		C3A449F41E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449DC1E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).lrc */; };
+		C3A449F51E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449DD1E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).mp3 */; };
+		C3A449F61E4BFF0900502BD5 /* 曾敏杰.png in Resources */ = {isa = PBXBuildFile; fileRef = C3A449DE1E4BFF0900502BD5 /* 曾敏杰.png */; };
+		C3A449F71E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449DF1E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).lrc */; };
+		C3A449F81E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449E01E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).mp3 */; };
+		C3A449F91E4BFF0900502BD5 /* 朴翔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A449E11E4BFF0900502BD5 /* 朴翔.jpg */; };
+		C3A449FA1E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).lrc in Resources */ = {isa = PBXBuildFile; fileRef = C3A449E21E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).lrc */; };
+		C3A449FB1E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3A449E31E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).mp3 */; };
+		C3A449FD1E4BFF3700502BD5 /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3A449FC1E4BFF3700502BD5 /* mlist.plist */; };
+		C3A44A001E4C031E00502BD5 /* Music_M.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A449FF1E4C031E00502BD5 /* Music_M.m */; };
+		C3A44A031E4C07FA00502BD5 /* TimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A44A021E4C07FA00502BD5 /* TimeTool.m */; };
+		C3A44A061E4C083000502BD5 /* LyricParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A44A051E4C083000502BD5 /* LyricParser.m */; };
+		C3A44A091E4C086400502BD5 /* NSDateFormatter+Share.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A44A081E4C086400502BD5 /* NSDateFormatter+Share.m */; };
+		C3A44A0C1E4C0A3600502BD5 /* Lyric.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A44A0B1E4C0A3600502BD5 /* Lyric.m */; };
+		C3A5A0AF1E4C9B0400ADAD43 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A5A0AC1E4C9B0400ADAD43 /* UIImage+ImageEffects.m */; };
+		C3A5A0B01E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A5A0AE1E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.m */; };
+		C3B7E68E1E496197001DDB5C /* JokePicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7E68C1E496197001DDB5C /* JokePicCell.m */; };
+		C3B7E6921E4966F2001DDB5C /* JokePic_M.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B7E6911E4966F2001DDB5C /* JokePic_M.m */; };
 		C3D7AB501E45C436006297A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB4F1E45C436006297A7 /* main.m */; };
 		C3D7AB531E45C436006297A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB521E45C436006297A7 /* AppDelegate.m */; };
 		C3D7AB561E45C436006297A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB551E45C436006297A7 /* ViewController.m */; };
@@ -15,6 +59,14 @@
 		C3D7AB5E1E45C436006297A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D7AB5C1E45C436006297A7 /* LaunchScreen.storyboard */; };
 		C3D7AB691E45C436006297A7 /* JokeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB681E45C436006297A7 /* JokeTests.m */; };
 		C3D7AB741E45C436006297A7 /* JokeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB731E45C436006297A7 /* JokeUITests.m */; };
+		C3D7AB961E45C7C1006297A7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB951E45C7C1006297A7 /* BaseViewController.m */; };
+		C3D7AB991E45C8A9006297A7 /* BaseTabBarCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AB981E45C8A9006297A7 /* BaseTabBarCtr.m */; };
+		C3D7ABA21E45CAB1006297A7 /* HomeCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7ABA11E45CAB1006297A7 /* HomeCtr.m */; };
+		C3D7ABA51E45CAC1006297A7 /* PersonCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7ABA41E45CAC1006297A7 /* PersonCtr.m */; };
+		C3D7ABA81E45CAD0006297A7 /* PicCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7ABA71E45CAD0006297A7 /* PicCtr.m */; };
+		C3EC66D91E4843AC002279D3 /* NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC66D81E4843AC002279D3 /* NetWorking.m */; };
+		C3EC66E01E4844D9002279D3 /* BaseNavc.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC66DF1E4844D9002279D3 /* BaseNavc.m */; };
+		C3EC66E91E48560D002279D3 /* Joke_M.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EC66E81E48560D002279D3 /* Joke_M.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +87,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C5DE65B9D987505BECF2805 /* Pods-Joke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joke.release.xcconfig"; path = "Pods/Target Support Files/Pods-Joke/Pods-Joke.release.xcconfig"; sourceTree = "<group>"; };
+		7DCAFB6ED2832A553D9EE370 /* Pods_Joke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Joke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F6BD8BC7BDF886E62CB43A /* Pods-Joke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Joke/Pods-Joke.debug.xcconfig"; sourceTree = "<group>"; };
+		C35A0D7C1E4C61F0005E511E /* FirstLrcV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLrcV.h; sourceTree = "<group>"; };
+		C35A0D7D1E4C61F0005E511E /* FirstLrcV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLrcV.m; sourceTree = "<group>"; };
+		C35A0D7F1E4C6202005E511E /* SecondLrcV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLrcV.h; sourceTree = "<group>"; };
+		C35A0D801E4C6202005E511E /* SecondLrcV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLrcV.m; sourceTree = "<group>"; };
+		C35B45A81E4864D30053FB77 /* JokeTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeTextCell.h; sourceTree = "<group>"; };
+		C35B45A91E4864D30053FB77 /* JokeTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeTextCell.m; sourceTree = "<group>"; };
+		C35B45AA1E4864D30053FB77 /* JokeTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JokeTextCell.xib; sourceTree = "<group>"; };
+		C36B960F1E4B0E1B0012589D /* WPFPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFPlayManager.h; sourceTree = "<group>"; };
+		C36B96101E4B0E1B0012589D /* WPFPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFPlayManager.m; sourceTree = "<group>"; };
+		C36B96121E4B0FE00012589D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C36B96131E4B0FE00012589D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C36B96151E4B1ABA0012589D /* MusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicVC.h; sourceTree = "<group>"; };
+		C36B96161E4B1ABA0012589D /* MusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicVC.m; sourceTree = "<group>"; };
+		C36B96171E4B1ABA0012589D /* MusicVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicVC.xib; sourceTree = "<group>"; };
+		C38972F11E4998FA007ECAB4 /* imgvScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgvScale.h; sourceTree = "<group>"; };
+		C38972F21E4998FA007ECAB4 /* imgvScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imgvScale.m; sourceTree = "<group>"; };
+		C3A449CC1E4BFF0900502BD5 /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		C3A449CD1E4BFF0900502BD5 /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		C3A449CE1E4BFF0900502BD5 /* eason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eason.jpg; sourceTree = "<group>"; };
+		C3A449CF1E4BFF0900502BD5 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		C3A449D01E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "包师语 - 彩虹 (Live).lrc"; sourceTree = "<group>"; };
+		C3A449D11E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "包师语 - 彩虹 (Live).mp3"; sourceTree = "<group>"; };
+		C3A449D21E4BFF0900502BD5 /* 包师语.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "包师语.png"; sourceTree = "<group>"; };
+		C3A449D31E4BFF0900502BD5 /* 安河桥北.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "安河桥北.jpg"; sourceTree = "<group>"; };
+		C3A449D41E4BFF0900502BD5 /* 宋冬野 - 安河桥.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "宋冬野 - 安河桥.lrc"; sourceTree = "<group>"; };
+		C3A449D51E4BFF0900502BD5 /* 宋冬野 - 安河桥.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "宋冬野 - 安河桥.mp3"; sourceTree = "<group>"; };
+		C3A449D61E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "徐歌阳 - 一万次悲伤 (Live).lrc"; sourceTree = "<group>"; };
+		C3A449D71E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "徐歌阳 - 一万次悲伤 (Live).mp3"; sourceTree = "<group>"; };
+		C3A449D81E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "徐歌阳 - 追梦赤子心 (Live).lrc"; sourceTree = "<group>"; };
+		C3A449D91E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "徐歌阳 - 追梦赤子心 (Live).mp3"; sourceTree = "<group>"; };
+		C3A449DA1E4BFF0900502BD5 /* 徐歌阳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "徐歌阳.jpg"; sourceTree = "<group>"; };
+		C3A449DB1E4BFF0900502BD5 /* 徐歌阳1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "徐歌阳1.jpg"; sourceTree = "<group>"; };
+		C3A449DC1E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "曾敏杰 - 伤痕 (Live).lrc"; sourceTree = "<group>"; };
+		C3A449DD1E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "曾敏杰 - 伤痕 (Live).mp3"; sourceTree = "<group>"; };
+		C3A449DE1E4BFF0900502BD5 /* 曾敏杰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "曾敏杰.png"; sourceTree = "<group>"; };
+		C3A449DF1E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "朴翔 - 把悲伤留给自己 (Live).lrc"; sourceTree = "<group>"; };
+		C3A449E01E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "朴翔 - 把悲伤留给自己 (Live).mp3"; sourceTree = "<group>"; };
+		C3A449E11E4BFF0900502BD5 /* 朴翔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朴翔.jpg"; sourceTree = "<group>"; };
+		C3A449E21E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "陈奕迅 - 陪你度过漫长岁月 (国语).lrc"; sourceTree = "<group>"; };
+		C3A449E31E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 陪你度过漫长岁月 (国语).mp3"; sourceTree = "<group>"; };
+		C3A449FC1E4BFF3700502BD5 /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		C3A449FE1E4C031E00502BD5 /* Music_M.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music_M.h; sourceTree = "<group>"; };
+		C3A449FF1E4C031E00502BD5 /* Music_M.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music_M.m; sourceTree = "<group>"; };
+		C3A44A011E4C07FA00502BD5 /* TimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTool.h; sourceTree = "<group>"; };
+		C3A44A021E4C07FA00502BD5 /* TimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTool.m; sourceTree = "<group>"; };
+		C3A44A041E4C083000502BD5 /* LyricParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricParser.h; sourceTree = "<group>"; };
+		C3A44A051E4C083000502BD5 /* LyricParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricParser.m; sourceTree = "<group>"; };
+		C3A44A071E4C086400502BD5 /* NSDateFormatter+Share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Share.h"; sourceTree = "<group>"; };
+		C3A44A081E4C086400502BD5 /* NSDateFormatter+Share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Share.m"; sourceTree = "<group>"; };
+		C3A44A0A1E4C0A3600502BD5 /* Lyric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lyric.h; sourceTree = "<group>"; };
+		C3A44A0B1E4C0A3600502BD5 /* Lyric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lyric.m; sourceTree = "<group>"; };
+		C3A5A0AB1E4C9B0400ADAD43 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C3A5A0AC1E4C9B0400ADAD43 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		C3A5A0AD1E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		C3A5A0AE1E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		C3B7E68B1E496197001DDB5C /* JokePicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokePicCell.h; sourceTree = "<group>"; };
+		C3B7E68C1E496197001DDB5C /* JokePicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokePicCell.m; sourceTree = "<group>"; };
+		C3B7E6901E4966F2001DDB5C /* JokePic_M.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokePic_M.h; sourceTree = "<group>"; };
+		C3B7E6911E4966F2001DDB5C /* JokePic_M.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokePic_M.m; sourceTree = "<group>"; };
 		C3D7AB4B1E45C436006297A7 /* Joke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D7AB4F1E45C436006297A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3D7AB511E45C436006297A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +165,24 @@
 		C3D7AB6F1E45C436006297A7 /* JokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D7AB731E45C436006297A7 /* JokeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokeUITests.m; sourceTree = "<group>"; };
 		C3D7AB751E45C436006297A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D7AB941E45C7C1006297A7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C3D7AB951E45C7C1006297A7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C3D7AB971E45C8A9006297A7 /* BaseTabBarCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarCtr.h; sourceTree = "<group>"; };
+		C3D7AB981E45C8A9006297A7 /* BaseTabBarCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarCtr.m; sourceTree = "<group>"; };
+		C3D7ABA01E45CAB1006297A7 /* HomeCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCtr.h; sourceTree = "<group>"; };
+		C3D7ABA11E45CAB1006297A7 /* HomeCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCtr.m; sourceTree = "<group>"; };
+		C3D7ABA31E45CAC1006297A7 /* PersonCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCtr.h; sourceTree = "<group>"; };
+		C3D7ABA41E45CAC1006297A7 /* PersonCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCtr.m; sourceTree = "<group>"; };
+		C3D7ABA61E45CAD0006297A7 /* PicCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicCtr.h; sourceTree = "<group>"; };
+		C3D7ABA71E45CAD0006297A7 /* PicCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicCtr.m; sourceTree = "<group>"; };
+		C3D7ABAD1E45D5D7006297A7 /* Jk.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jk.pch; sourceTree = "<group>"; };
+		C3EC66D71E4843AC002279D3 /* NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
+		C3EC66D81E4843AC002279D3 /* NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorking.m; sourceTree = "<group>"; };
+		C3EC66DE1E4844D9002279D3 /* BaseNavc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavc.h; sourceTree = "<group>"; };
+		C3EC66DF1E4844D9002279D3 /* BaseNavc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavc.m; sourceTree = "<group>"; };
+		C3EC66E11E484791002279D3 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C3EC66E71E48560D002279D3 /* Joke_M.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joke_M.h; sourceTree = "<group>"; };
+		C3EC66E81E48560D002279D3 /* Joke_M.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joke_M.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E32C22B0971FB874AFE804E /* Pods_Joke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +211,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0755CF9F030B1D3232D0CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2F6BD8BC7BDF886E62CB43A /* Pods-Joke.debug.xcconfig */,
+				4C5DE65B9D987505BECF2805 /* Pods-Joke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3A449CB1E4BFF0900502BD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C3A449CC1E4BFF0900502BD5 /* buyao.wav */,
+				C3A449CD1E4BFF0900502BD5 /* chatcome.wav */,
+				C3A449CE1E4BFF0900502BD5 /* eason.jpg */,
+				C3A449CF1E4BFF0900502BD5 /* test.wav */,
+				C3A449D01E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).lrc */,
+				C3A449D11E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).mp3 */,
+				C3A449D21E4BFF0900502BD5 /* 包师语.png */,
+				C3A449D31E4BFF0900502BD5 /* 安河桥北.jpg */,
+				C3A449D41E4BFF0900502BD5 /* 宋冬野 - 安河桥.lrc */,
+				C3A449D51E4BFF0900502BD5 /* 宋冬野 - 安河桥.mp3 */,
+				C3A449D61E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).lrc */,
+				C3A449D71E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).mp3 */,
+				C3A449D81E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).lrc */,
+				C3A449D91E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).mp3 */,
+				C3A449DA1E4BFF0900502BD5 /* 徐歌阳.jpg */,
+				C3A449DB1E4BFF0900502BD5 /* 徐歌阳1.jpg */,
+				C3A449DC1E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).lrc */,
+				C3A449DD1E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).mp3 */,
+				C3A449DE1E4BFF0900502BD5 /* 曾敏杰.png */,
+				C3A449DF1E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).lrc */,
+				C3A449E01E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).mp3 */,
+				C3A449E11E4BFF0900502BD5 /* 朴翔.jpg */,
+				C3A449E21E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).lrc */,
+				C3A449E31E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).mp3 */,
+				C3A449FC1E4BFF3700502BD5 /* mlist.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C3A5A0AA1E4C9B0400ADAD43 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				C3A5A0AB1E4C9B0400ADAD43 /* UIImage+ImageEffects.h */,
+				C3A5A0AC1E4C9B0400ADAD43 /* UIImage+ImageEffects.m */,
+				C3A5A0AD1E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.h */,
+				C3A5A0AE1E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.m */,
+			);
+			path = LBBlurredImage;
+			sourceTree = "<group>";
+		};
 		C3D7AB421E45C436006297A7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +270,8 @@
 				C3D7AB671E45C436006297A7 /* JokeTests */,
 				C3D7AB721E45C436006297A7 /* JokeUITests */,
 				C3D7AB4C1E45C436006297A7 /* Products */,
+				2E0755CF9F030B1D3232D0CC /* Pods */,
+				C575C0E28B77029EE252324F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +288,7 @@
 		C3D7AB4D1E45C436006297A7 /* Joke */ = {
 			isa = PBXGroup;
 			children = (
+				C3D7AB811E45C66B006297A7 /* Classes */,
 				C3D7AB511E45C436006297A7 /* AppDelegate.h */,
 				C3D7AB521E45C436006297A7 /* AppDelegate.m */,
 				C3D7AB541E45C436006297A7 /* ViewController.h */,
@@ -117,7 +305,10 @@
 		C3D7AB4E1E45C436006297A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3A449CB1E4BFF0900502BD5 /* Assets */,
 				C3D7AB4F1E45C436006297A7 /* main.m */,
+				C3D7ABAD1E45D5D7006297A7 /* Jk.pch */,
+				C3EC66E11E484791002279D3 /* Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +331,212 @@
 			path = JokeUITests;
 			sourceTree = "<group>";
 		};
+		C3D7AB811E45C66B006297A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7ABAC1E45CF79006297A7 /* Tool */,
+				C3D7AB931E45C784006297A7 /* Base */,
+				C3D7AB821E45C6A3006297A7 /* Home */,
+				C3D7AB831E45C6A3006297A7 /* Person */,
+				C3D7AB841E45C6A3006297A7 /* Pic */,
+				C3D7AB851E45C6A3006297A7 /* Word */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C3D7AB821E45C6A3006297A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7AB861E45C6C0006297A7 /* C */,
+				C3D7AB871E45C6C0006297A7 /* M */,
+				C3D7AB881E45C6C0006297A7 /* V */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C3D7AB831E45C6A3006297A7 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7AB8A1E45C6E2006297A7 /* C */,
+				C3D7AB8B1E45C6E2006297A7 /* M */,
+				C3D7AB8C1E45C6E2006297A7 /* V */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		C3D7AB841E45C6A3006297A7 /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7AB8D1E45C6F9006297A7 /* C */,
+				C3D7AB8E1E45C6F9006297A7 /* M */,
+				C3D7AB8F1E45C6F9006297A7 /* V */,
+			);
+			path = Pic;
+			sourceTree = "<group>";
+		};
+		C3D7AB851E45C6A3006297A7 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7AB901E45C716006297A7 /* C */,
+				C3D7AB911E45C716006297A7 /* M */,
+				C3D7AB921E45C716006297A7 /* V */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		C3D7AB861E45C6C0006297A7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7ABA01E45CAB1006297A7 /* HomeCtr.h */,
+				C3D7ABA11E45CAB1006297A7 /* HomeCtr.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		C3D7AB871E45C6C0006297A7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC66E71E48560D002279D3 /* Joke_M.h */,
+				C3EC66E81E48560D002279D3 /* Joke_M.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		C3D7AB881E45C6C0006297A7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				C35B45A81E4864D30053FB77 /* JokeTextCell.h */,
+				C35B45A91E4864D30053FB77 /* JokeTextCell.m */,
+				C35B45AA1E4864D30053FB77 /* JokeTextCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		C3D7AB8A1E45C6E2006297A7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7ABA31E45CAC1006297A7 /* PersonCtr.h */,
+				C3D7ABA41E45CAC1006297A7 /* PersonCtr.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		C3D7AB8B1E45C6E2006297A7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		C3D7AB8C1E45C6E2006297A7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		C3D7AB8D1E45C6F9006297A7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7ABA61E45CAD0006297A7 /* PicCtr.h */,
+				C3D7ABA71E45CAD0006297A7 /* PicCtr.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		C3D7AB8E1E45C6F9006297A7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7E6901E4966F2001DDB5C /* JokePic_M.h */,
+				C3B7E6911E4966F2001DDB5C /* JokePic_M.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		C3D7AB8F1E45C6F9006297A7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7E68B1E496197001DDB5C /* JokePicCell.h */,
+				C3B7E68C1E496197001DDB5C /* JokePicCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		C3D7AB901E45C716006297A7 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				C36B96151E4B1ABA0012589D /* MusicVC.h */,
+				C36B96161E4B1ABA0012589D /* MusicVC.m */,
+				C36B96171E4B1ABA0012589D /* MusicVC.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		C3D7AB911E45C716006297A7 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				C3A449FE1E4C031E00502BD5 /* Music_M.h */,
+				C3A449FF1E4C031E00502BD5 /* Music_M.m */,
+				C3A44A011E4C07FA00502BD5 /* TimeTool.h */,
+				C3A44A021E4C07FA00502BD5 /* TimeTool.m */,
+				C3A44A041E4C083000502BD5 /* LyricParser.h */,
+				C3A44A051E4C083000502BD5 /* LyricParser.m */,
+				C3A44A071E4C086400502BD5 /* NSDateFormatter+Share.h */,
+				C3A44A081E4C086400502BD5 /* NSDateFormatter+Share.m */,
+				C3A44A0A1E4C0A3600502BD5 /* Lyric.h */,
+				C3A44A0B1E4C0A3600502BD5 /* Lyric.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		C3D7AB921E45C716006297A7 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				C35A0D7C1E4C61F0005E511E /* FirstLrcV.h */,
+				C35A0D7D1E4C61F0005E511E /* FirstLrcV.m */,
+				C35A0D7F1E4C6202005E511E /* SecondLrcV.h */,
+				C35A0D801E4C6202005E511E /* SecondLrcV.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		C3D7AB931E45C784006297A7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7AB941E45C7C1006297A7 /* BaseViewController.h */,
+				C3D7AB951E45C7C1006297A7 /* BaseViewController.m */,
+				C3D7AB971E45C8A9006297A7 /* BaseTabBarCtr.h */,
+				C3D7AB981E45C8A9006297A7 /* BaseTabBarCtr.m */,
+				C3EC66DE1E4844D9002279D3 /* BaseNavc.h */,
+				C3EC66DF1E4844D9002279D3 /* BaseNavc.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C3D7ABAC1E45CF79006297A7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C3A5A0AA1E4C9B0400ADAD43 /* LBBlurredImage */,
+				C36B960F1E4B0E1B0012589D /* WPFPlayManager.h */,
+				C36B96101E4B0E1B0012589D /* WPFPlayManager.m */,
+				C3EC66D71E4843AC002279D3 /* NetWorking.h */,
+				C3EC66D81E4843AC002279D3 /* NetWorking.m */,
+				C38972F11E4998FA007ECAB4 /* imgvScale.h */,
+				C38972F21E4998FA007ECAB4 /* imgvScale.m */,
+				C36B96121E4B0FE00012589D /* UIView+Extension.h */,
+				C36B96131E4B0FE00012589D /* UIView+Extension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C575C0E28B77029EE252324F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCAFB6ED2832A553D9EE370 /* Pods_Joke.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +544,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3D7AB781E45C436006297A7 /* Build configuration list for PBXNativeTarget "Joke" */;
 			buildPhases = (
+				930DC78CFD7095F7DBE5E8E8 /* [CP] Check Pods Manifest.lock */,
 				C3D7AB471E45C436006297A7 /* Sources */,
 				C3D7AB481E45C436006297A7 /* Frameworks */,
 				C3D7AB491E45C436006297A7 /* Resources */,
+				04A88B9CA16BBDE5C1E12225 /* [CP] Embed Pods Frameworks */,
+				4393B23E2348E2A554508BF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +649,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A449EE1E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).lrc in Resources */,
+				C3A449F21E4BFF0900502BD5 /* 徐歌阳.jpg in Resources */,
+				C3A449FD1E4BFF3700502BD5 /* mlist.plist in Resources */,
+				C3A449FA1E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).lrc in Resources */,
+				C3A449EA1E4BFF0900502BD5 /* 包师语.png in Resources */,
 				C3D7AB5E1E45C436006297A7 /* LaunchScreen.storyboard in Resources */,
+				C36B96191E4B1ABA0012589D /* MusicVC.xib in Resources */,
+				C3A449F11E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).mp3 in Resources */,
 				C3D7AB5B1E45C436006297A7 /* Assets.xcassets in Resources */,
 				C3D7AB591E45C436006297A7 /* Main.storyboard in Resources */,
+				C3A449F81E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).mp3 in Resources */,
+				C3A449F71E4BFF0900502BD5 /* 朴翔 - 把悲伤留给自己 (Live).lrc in Resources */,
+				C3A449F91E4BFF0900502BD5 /* 朴翔.jpg in Resources */,
+				C3A449E51E4BFF0900502BD5 /* chatcome.wav in Resources */,
+				C3A449ED1E4BFF0900502BD5 /* 宋冬野 - 安河桥.mp3 in Resources */,
+				C35B45AC1E4864D30053FB77 /* JokeTextCell.xib in Resources */,
+				C3A449EB1E4BFF0900502BD5 /* 安河桥北.jpg in Resources */,
+				C3A449E91E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).mp3 in Resources */,
+				C3A449EC1E4BFF0900502BD5 /* 宋冬野 - 安河桥.lrc in Resources */,
+				C3A449E71E4BFF0900502BD5 /* test.wav in Resources */,
+				C3A449F61E4BFF0900502BD5 /* 曾敏杰.png in Resources */,
+				C3A449F51E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).mp3 in Resources */,
+				C3A449E61E4BFF0900502BD5 /* eason.jpg in Resources */,
+				C3A449E81E4BFF0900502BD5 /* 包师语 - 彩虹 (Live).lrc in Resources */,
+				C3A449F31E4BFF0900502BD5 /* 徐歌阳1.jpg in Resources */,
+				C3A449EF1E4BFF0900502BD5 /* 徐歌阳 - 一万次悲伤 (Live).mp3 in Resources */,
+				C3A449F01E4BFF0900502BD5 /* 徐歌阳 - 追梦赤子心 (Live).lrc in Resources */,
+				C3A449F41E4BFF0900502BD5 /* 曾敏杰 - 伤痕 (Live).lrc in Resources */,
+				C3A449E41E4BFF0900502BD5 /* buyao.wav in Resources */,
+				C3A449FB1E4BFF0900502BD5 /* 陈奕迅 - 陪你度过漫长岁月 (国语).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +698,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A88B9CA16BBDE5C1E12225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Joke/Pods-Joke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4393B23E2348E2A554508BF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Joke/Pods-Joke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		930DC78CFD7095F7DBE5E8E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3D7AB471E45C436006297A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A44A061E4C083000502BD5 /* LyricParser.m in Sources */,
+				C3A44A091E4C086400502BD5 /* NSDateFormatter+Share.m in Sources */,
+				C3B7E68E1E496197001DDB5C /* JokePicCell.m in Sources */,
+				C3EC66D91E4843AC002279D3 /* NetWorking.m in Sources */,
+				C3A44A031E4C07FA00502BD5 /* TimeTool.m in Sources */,
+				C35A0D7E1E4C61F0005E511E /* FirstLrcV.m in Sources */,
+				C3A5A0B01E4C9B0400ADAD43 /* UIImageView+LBBlurredImage.m in Sources */,
+				C3A44A0C1E4C0A3600502BD5 /* Lyric.m in Sources */,
+				C35A0D811E4C6202005E511E /* SecondLrcV.m in Sources */,
+				C35B45AB1E4864D30053FB77 /* JokeTextCell.m in Sources */,
+				C38972F31E4998FA007ECAB4 /* imgvScale.m in Sources */,
+				C3D7ABA21E45CAB1006297A7 /* HomeCtr.m in Sources */,
+				C36B96181E4B1ABA0012589D /* MusicVC.m in Sources */,
+				C36B96141E4B0FE00012589D /* UIView+Extension.m in Sources */,
+				C3EC66E91E48560D002279D3 /* Joke_M.m in Sources */,
+				C3A5A0AF1E4C9B0400ADAD43 /* UIImage+ImageEffects.m in Sources */,
 				C3D7AB561E45C436006297A7 /* ViewController.m in Sources */,
+				C3B7E6921E4966F2001DDB5C /* JokePic_M.m in Sources */,
+				C3D7AB961E45C7C1006297A7 /* BaseViewController.m in Sources */,
+				C3A44A001E4C031E00502BD5 /* Music_M.m in Sources */,
+				C3D7ABA81E45CAD0006297A7 /* PicCtr.m in Sources */,
 				C3D7AB531E45C436006297A7 /* AppDelegate.m in Sources */,
+				C3D7AB991E45C8A9006297A7 /* BaseTabBarCtr.m in Sources */,
+				C3D7ABA51E45CAC1006297A7 /* PersonCtr.m in Sources */,
+				C3EC66E01E4844D9002279D3 /* BaseNavc.m in Sources */,
 				C3D7AB501E45C436006297A7 /* main.m in Sources */,
+				C36B96111E4B0E1B0012589D /* WPFPlayManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +922,12 @@
 		};
 		C3D7AB791E45C436006297A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F6BD8BC7BDF886E62CB43A /* Pods-Joke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZX296CSVNT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Joke/Jk.pch";
 				INFOPLIST_FILE = Joke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ivna.Joke;
@@ -435,9 +937,12 @@
 		};
 		C3D7AB7A1E45C436006297A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5DE65B9D987505BECF2805 /* Pods-Joke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZX296CSVNT;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Joke/Jk.pch";
 				INFOPLIST_FILE = Joke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ivna.Joke;
@@ -514,6 +1019,7 @@
 				C3D7AB7A1E45C436006297A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3D7AB7B1E45C436006297A7 /* Build configuration list for PBXNativeTarget "JokeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1028,7 @@
 				C3D7AB7D1E45C436006297A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3D7AB7E1E45C436006297A7 /* Build configuration list for PBXNativeTarget "JokeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1037,7 @@
 				C3D7AB801E45C436006297A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

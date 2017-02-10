@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BaseTabBarCtr.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    BaseTabBarCtr* baseVC = [[BaseTabBarCtr alloc]init];
+    self.window.rootViewController = baseVC;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
